@@ -25,7 +25,7 @@ async function bootstrapMemoryDatabase() {
   const clientesSeeder = new ClienteSeeder(clientesRepository, clientesDataReader)
   const itensSeeder = new ItemSeeder(itensRepository, itensDataReader)
   console.time("seeding")
-  console.log("SEEDING STARTED....")
+  console.log("SEEDING STARTED.....")
   await clientesSeeder.seed()
   await itensSeeder.seed()
   console.log(`SEEDING FINISHED...`)
