@@ -28,7 +28,7 @@ async function bootstrapMemoryDatabase() {
   console.log("SEEDING STARTED.....")
   await clientesSeeder.seed()
   await itensSeeder.seed()
-  console.log(`SEEDING FINISHED...`)
+  console.log(`SEEDING FINISHED....`)
   console.timeEnd("seeding")
 }
 
